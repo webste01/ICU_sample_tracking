@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>ICU Sample Tracking</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   <link rel="icon" type="image/ico" href="/favicon.ico"/>
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="navbar navbar-default navbar-fixed-top">   
+    <div class="container">      
+        <div class="navbar-header">         
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">            
+                <span class="icon-bar"></span>            
+                <span class="icon-bar"></span>            
+                <span class="icon-bar"></span>         
+            </button>         
+            <a class="navbar-brand" href="#"><b>PathogenDB ICU Sample Tracking</b></a>      </div>      
+            <div class="navbar-collapse collapse">         
+                <ul class="nav navbar-nav">            
+                            </div>   </div></div>
+
+<!--Content-->
+<div class="container">
+   <div class="jumbotron">
+      <h3>Sampling Information</h3>
+      <p>
+         This page contains graphics that track the stool samples and rectal swabs being taken in the MICU, SICU and NSCU as part of the CDiff project.
+      </p>
+
+<div class="floated_img">
+    <p>All data is reported from the date of the first collection for that ICU. </p>
+        <p>The start dates for sample collection are:</p>
+	   <ul>
+        <li>NSIC: 11/17/2015</li>
+        <li>MICU: 12/1/2015</li>
+        <li>SICU: 9/14/2015</li>
+        </ul>
+	<img src="sampling_breakdown.png" alt="Some image">
+</div>
+
+<p>Click <a href="table1.html">here</a> to get a the number breakdown of the above table. </p>
+
+<p>Click <a href="Samples_before_first_admit.txt">here</a> to get a list of Patient IDs for patients who have had samples taken prior to their first admit. </p>
+
+<p>Click <a href="Samples_w_no_visits.txt">here</a> to get a list of Patient IDs for patients who have had samples taken but who are not listed as ever occupying an ICU.</p>
+
+<div class="floated_img">
+    <p>Ratio of sampled vs. total patients for seven day bin increments, in a sliding window model.</p>
+    <img src="7_day_bins.png" alt="Some image">
+</div>
+
+<div class="floated_img">
+    <p>Ratio of sampled vs. total patients for five day bin increments, in a sliding window model.</p>
+    <img src="5_day_bins.png" alt="Some image">
+</div>
+<div class="floated_img">
+    <p>Ratio of sampled vs. total patients for three day bin increments, in a sliding window model.</p>
+    <img src="3_day_bins.png" alt="Another image">
+</div>
+
+<div class="floated_img">
+    <p>Ratio of sampled vs. total patients for two day bin increments, in a sliding window model.</p>
+    <img src="2_day_bins.png" alt="Some image">
+</div>
+
+
+<div class="floated_img">
+    <p>Density plot of the number of days spent in the ICU for missing samples.</p>
+    <img src="hist_days_missing_samples.png" alt="Some image">
+</div>
+
+</div>
+</div>
+</body>
+</html>
